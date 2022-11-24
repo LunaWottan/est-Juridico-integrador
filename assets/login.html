@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="form-conteiner">
+
+        <div class="welcome-screen-conteiner">
+            <img src="./login.svg" alt="imagen de una mujer y una pc">
+        </div>
+
+        <div class="login-conteiner">
+            <h2>BIENVENIDO</h2>
+            <p>Selecciona el Método de autenticación</p>
+
+            <form action="">
+                <p>
+                    <label for="email">Email</label>
+                    <input class="input" type="text" name="email" id="email">
+                </p>
+                <p>
+                 <label for="pasw">Contraseña</label>
+                 <input class="input" type="text" name="pasw" id="pasw">
+                </p>
+                
+                <div class="options">
+                    <div>
+                        Remember Me <input type="checkbox" name="rememberme">
+                    </div>
+
+                    <div>
+                        <a href="#">Olvidé mi Contraseña</a>
+                    </div>
+                </div>
+                <p>
+                    <input type="submit" class="btn btn-login" value="log in">
+                </p>
+
+                <div class="providers">
+                    <span>Elige otro método para hacer el LOGIN:</span>
+
+                    <button class="btn btn-google">GOOGLE</button>
+                    <button class="btn btn-face">FACEBOOK</button>
+                    <button class="btn btn-twit">TWITTER</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
